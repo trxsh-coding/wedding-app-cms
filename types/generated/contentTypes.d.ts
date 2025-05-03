@@ -391,7 +391,6 @@ export interface ApiGuestGuest extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     name: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
-    slug: Schema.Attribute.UID;
     stol: Schema.Attribute.Relation<'oneToOne', 'api::table.table'>;
     surname: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
