@@ -19,11 +19,12 @@
     "@strapi/plugin-documentation": "^5.12.7",
     "@strapi/plugin-users-permissions": "5.12.7",
     "@strapi/strapi": "5.12.7",
+    "@vitejs/plugin-react": "^4.4.1",
     "add": "^2.0.6",
     "better-sqlite3": "11.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "react-router-dom": "^7.5.3",
     "styled-components": "^6.0.0",
     "yarn": "^1.22.22"
   },
