@@ -24,17 +24,18 @@
     "surname": {
       "type": "string"
     },
-    "stol": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::table.table"
-    },
     "gender": {
       "type": "enumeration",
       "enum": [
         "male",
         "female"
       ]
+    },
+    "stol": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::table.table",
+      "mappedBy": "gosti"
     }
   }
 }

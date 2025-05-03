@@ -64,12 +64,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "table": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::table.table",
-      "inversedBy": "users"
     }
   }
 }
