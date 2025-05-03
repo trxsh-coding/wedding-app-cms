@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-05-03T21:17:05.686Z"
+    "x-generation-date": "2025-05-03T21:20:43.825Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -3140,9 +3140,6 @@
               "documentId": {
                 "type": "string"
               },
-              "number": {
-                "type": "string"
-              },
               "gosti": {
                 "type": "object",
                 "properties": {
@@ -3483,6 +3480,9 @@
                     }
                   }
                 }
+              },
+              "number": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -4060,9 +4060,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "number": {
-                "type": "string"
-              },
               "gosti": {
                 "oneOf": [
                   {
@@ -4073,6 +4070,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "number": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -4139,9 +4139,6 @@
           "documentId": {
             "type": "string"
           },
-          "number": {
-            "type": "string"
-          },
           "gosti": {
             "type": "object",
             "properties": {
@@ -4176,9 +4173,6 @@
                   "documentId": {
                     "type": "string"
                   },
-                  "number": {
-                    "type": "string"
-                  },
                   "gosti": {
                     "type": "object",
                     "properties": {
@@ -4189,6 +4183,9 @@
                         "type": "string"
                       }
                     }
+                  },
+                  "number": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
@@ -4547,6 +4544,9 @@
                 }
               }
             }
+          },
+          "number": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",

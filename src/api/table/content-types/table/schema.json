@@ -11,14 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "number": {
-      "type": "uid"
-    },
     "gosti": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::guest.guest",
       "inversedBy": "stol"
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }
